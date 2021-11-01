@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 
-import InputTime from "../src/index";
+import TimeTextInput from "../src/index";
 
 const defaultTime = "00:00";
 
@@ -20,7 +20,7 @@ function App() {
     <div>
       <span>Time is {time}</span>
       <br />
-      <InputTime
+      <TimeTextInput
         name="timeInput"
         clock={24}
         size={4}

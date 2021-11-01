@@ -23,9 +23,10 @@ export default {
     path: path.resolve(__dirname, "public"),
   },
   devServer: {
-    static: {
-      directory: path.join(__dirname, "public"),
-    },
+    static: path.join(__dirname, "public"),
+    compress: true,
+    liveReload: true,
+    open: true,
     port: 8080,
   },
 };

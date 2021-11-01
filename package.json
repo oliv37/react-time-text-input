@@ -9,14 +9,17 @@
     "dist"
   ],
   "author": "Olivier Boissé",
+  "homepage": "https://github.com/oliv37/react-time-text-input",
+  "repository": "github:oliv37/react-time-text-input",
   "license": "MIT",
   "keywords": [
     "react time text input"
   ],
   "scripts": {
     "build": "tsc",
-    "example:start": "webpack server --open --mode development --config ./example/webpack.config.js",
-    "example:build": "webpack --mode production --config ./example/webpack.config.js"
+    "example": "webpack server --mode development --config ./example/webpack.config.js",
+    "predeploy": "webpack --mode production --config ./example/webpack.config.js",
+    "deploy": "gh-pages -d example/public"
   },
   "peerDependencies": {
     "react": "17.0.2"
@@ -24,6 +27,7 @@
   "devDependencies": {
     "@types/react": "^17.0.33",
     "@types/react-dom": "^17.0.10",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "ts-loader": "^9.2.6",

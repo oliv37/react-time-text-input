@@ -1,6 +1,6 @@
 {
   "name": "react-time-text-input",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "A react text input to handle time format HH:mm",
   "type": "module",
   "main": "./dist/index.js",

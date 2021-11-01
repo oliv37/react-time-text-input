@@ -3,6 +3,7 @@
   "version": "1.0.0-alpha.1",
   "description": "A react text input to handle time format HH:mm",
   "type": "module",
+  "main": "./dist/index.js",
   "exports": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
@@ -16,6 +17,7 @@
     "react time text input"
   ],
   "scripts": {
+    "clean": "rimraf dist",
     "build": "tsc",
     "example": "webpack server --mode development --config ./example/webpack.config.js",
     "predeploy": "webpack --mode production --config ./example/webpack.config.js",
@@ -30,6 +32,7 @@
     "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "rimraf": "^3.0.2",
     "ts-loader": "^9.2.6",
     "typescript": "^4.4.4",
     "webpack": "^5.61.0",

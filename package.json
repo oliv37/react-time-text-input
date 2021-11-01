@@ -1,0 +1,29 @@
+{
+  "name": "react-time-text-input",
+  "version": "1.0.0-alpha.0",
+  "description": "A react text input to handle time format HH:mm",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "author": "Olivier Boissé",
+  "license": "MIT",
+  "keywords": [
+    "react time text input"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "react": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.4.4"
+  }
+}
